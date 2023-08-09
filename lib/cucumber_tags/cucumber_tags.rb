@@ -49,6 +49,7 @@ module CucumberTags
             end
           elsif required_tags - tags == []
             @filtered_feature << file
+            find = true
             break
           end
         end
